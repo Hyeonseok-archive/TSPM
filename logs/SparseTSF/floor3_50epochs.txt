@@ -1,0 +1,159 @@
+| module          | #parameters or shape   | #flops   |
+|:----------------|:-----------------------|:---------|
+| model           | 26                     | 3.12K    |
+|  conv1d         |  25                    |  3K      |
+|   conv1d.weight |   (1, 1, 25)           |          |
+|  linear         |  1                     |  0.12K   |
+|   linear.weight |   (1, 1)               |          |
+Epoch 1 | Loss : 0.706764 | Time : 1.5761
+Epoch 1 | Val Loss : 0.735828 | Time : 0.0552
+Best model saved with loss 0.735828 at epoch 1
+Epoch 2 | Loss : 0.695564 | Time : 0.3311
+Epoch 2 | Val Loss : 0.725423 | Time : 0.0551
+Best model saved with loss 0.725423 at epoch 2
+Epoch 3 | Loss : 0.640321 | Time : 0.3259
+Epoch 3 | Val Loss : 0.630408 | Time : 0.0549
+Best model saved with loss 0.630408 at epoch 3
+Epoch 4 | Loss : 0.530829 | Time : 0.3370
+Epoch 4 | Val Loss : 0.509263 | Time : 0.0549
+Best model saved with loss 0.509263 at epoch 4
+Epoch 5 | Loss : 0.421706 | Time : 0.3320
+Epoch 5 | Val Loss : 0.408019 | Time : 0.0551
+Best model saved with loss 0.408019 at epoch 5
+Epoch 6 | Loss : 0.340660 | Time : 0.3299
+Epoch 6 | Val Loss : 0.338207 | Time : 0.0554
+Best model saved with loss 0.338207 at epoch 6
+Epoch 7 | Loss : 0.287814 | Time : 0.3306
+Epoch 7 | Val Loss : 0.293548 | Time : 0.0548
+Best model saved with loss 0.293548 at epoch 7
+Epoch 8 | Loss : 0.256248 | Time : 0.3333
+Epoch 8 | Val Loss : 0.266853 | Time : 0.0548
+Best model saved with loss 0.266853 at epoch 8
+Epoch 9 | Loss : 0.237197 | Time : 0.3263
+Epoch 9 | Val Loss : 0.248531 | Time : 0.0551
+Best model saved with loss 0.248531 at epoch 9
+Epoch 10 | Loss : 0.223090 | Time : 0.3388
+Epoch 10 | Val Loss : 0.234805 | Time : 0.0546
+Best model saved with loss 0.234805 at epoch 10
+Epoch 11 | Loss : 0.212497 | Time : 0.3314
+Epoch 11 | Val Loss : 0.223880 | Time : 0.0621
+Best model saved with loss 0.223880 at epoch 11
+Epoch 12 | Loss : 0.203911 | Time : 0.3481
+Epoch 12 | Val Loss : 0.214966 | Time : 0.0625
+Best model saved with loss 0.214966 at epoch 12
+Epoch 13 | Loss : 0.197502 | Time : 0.3427
+Epoch 13 | Val Loss : 0.207532 | Time : 0.0651
+Best model saved with loss 0.207532 at epoch 13
+Epoch 14 | Loss : 0.190785 | Time : 0.3331
+Epoch 14 | Val Loss : 0.201241 | Time : 0.0646
+Best model saved with loss 0.201241 at epoch 14
+Epoch 15 | Loss : 0.186106 | Time : 0.3413
+Epoch 15 | Val Loss : 0.195873 | Time : 0.0644
+Best model saved with loss 0.195873 at epoch 15
+Epoch 16 | Loss : 0.181679 | Time : 0.3473
+Epoch 16 | Val Loss : 0.191234 | Time : 0.0618
+Best model saved with loss 0.191234 at epoch 16
+Epoch 17 | Loss : 0.178265 | Time : 0.3425
+Epoch 17 | Val Loss : 0.187226 | Time : 0.0645
+Best model saved with loss 0.187226 at epoch 17
+Epoch 18 | Loss : 0.174653 | Time : 0.3400
+Epoch 18 | Val Loss : 0.183715 | Time : 0.0642
+Best model saved with loss 0.183715 at epoch 18
+Epoch 19 | Loss : 0.171940 | Time : 0.3448
+Epoch 19 | Val Loss : 0.180629 | Time : 0.0663
+Best model saved with loss 0.180629 at epoch 19
+Epoch 20 | Loss : 0.169431 | Time : 0.3466
+Epoch 20 | Val Loss : 0.177852 | Time : 0.0701
+Best model saved with loss 0.177852 at epoch 20
+Epoch 21 | Loss : 0.167632 | Time : 0.3510
+Epoch 21 | Val Loss : 0.175402 | Time : 0.0686
+Best model saved with loss 0.175402 at epoch 21
+Epoch 22 | Loss : 0.165686 | Time : 0.3444
+Epoch 22 | Val Loss : 0.173188 | Time : 0.0707
+Best model saved with loss 0.173188 at epoch 22
+Epoch 23 | Loss : 0.163871 | Time : 0.3489
+Epoch 23 | Val Loss : 0.171172 | Time : 0.0728
+Best model saved with loss 0.171172 at epoch 23
+Epoch 24 | Loss : 0.162119 | Time : 0.3428
+Epoch 24 | Val Loss : 0.169341 | Time : 0.0690
+Best model saved with loss 0.169341 at epoch 24
+Epoch 25 | Loss : 0.160865 | Time : 0.3497
+Epoch 25 | Val Loss : 0.167648 | Time : 0.0702
+Best model saved with loss 0.167648 at epoch 25
+Epoch 26 | Loss : 0.159362 | Time : 0.3477
+Epoch 26 | Val Loss : 0.166087 | Time : 0.0660
+Best model saved with loss 0.166087 at epoch 26
+Epoch 27 | Loss : 0.158354 | Time : 0.3564
+Epoch 27 | Val Loss : 0.164639 | Time : 0.0724
+Best model saved with loss 0.164639 at epoch 27
+Epoch 28 | Loss : 0.156815 | Time : 0.3515
+Epoch 28 | Val Loss : 0.163299 | Time : 0.0732
+Best model saved with loss 0.163299 at epoch 28
+Epoch 29 | Loss : 0.156097 | Time : 0.3594
+Epoch 29 | Val Loss : 0.162047 | Time : 0.0734
+Best model saved with loss 0.162047 at epoch 29
+Epoch 30 | Loss : 0.154876 | Time : 0.3608
+Epoch 30 | Val Loss : 0.160887 | Time : 0.0732
+Best model saved with loss 0.160887 at epoch 30
+Epoch 31 | Loss : 0.153974 | Time : 0.3632
+Epoch 31 | Val Loss : 0.159789 | Time : 0.0727
+Best model saved with loss 0.159789 at epoch 31
+Epoch 32 | Loss : 0.153173 | Time : 0.3569
+Epoch 32 | Val Loss : 0.158769 | Time : 0.0672
+Best model saved with loss 0.158769 at epoch 32
+Epoch 33 | Loss : 0.152570 | Time : 0.3597
+Epoch 33 | Val Loss : 0.157812 | Time : 0.0701
+Best model saved with loss 0.157812 at epoch 33
+Epoch 34 | Loss : 0.151333 | Time : 0.3530
+Epoch 34 | Val Loss : 0.156943 | Time : 0.0719
+Best model saved with loss 0.156943 at epoch 34
+Epoch 35 | Loss : 0.150843 | Time : 0.3549
+Epoch 35 | Val Loss : 0.156142 | Time : 0.0731
+Best model saved with loss 0.156142 at epoch 35
+Epoch 36 | Loss : 0.150111 | Time : 0.3567
+Epoch 36 | Val Loss : 0.155400 | Time : 0.0708
+Best model saved with loss 0.155400 at epoch 36
+Epoch 37 | Loss : 0.149824 | Time : 0.3565
+Epoch 37 | Val Loss : 0.154741 | Time : 0.0704
+Best model saved with loss 0.154741 at epoch 37
+Epoch 38 | Loss : 0.149017 | Time : 0.3661
+Epoch 38 | Val Loss : 0.154143 | Time : 0.0706
+Best model saved with loss 0.154143 at epoch 38
+Epoch 39 | Loss : 0.148404 | Time : 0.3572
+Epoch 39 | Val Loss : 0.153613 | Time : 0.0727
+Best model saved with loss 0.153613 at epoch 39
+Epoch 40 | Loss : 0.149053 | Time : 0.3481
+Epoch 40 | Val Loss : 0.153150 | Time : 0.0728
+Best model saved with loss 0.153150 at epoch 40
+Epoch 41 | Loss : 0.148436 | Time : 0.3606
+Epoch 41 | Val Loss : 0.152754 | Time : 0.0725
+Best model saved with loss 0.152754 at epoch 41
+Epoch 42 | Loss : 0.147695 | Time : 0.3571
+Epoch 42 | Val Loss : 0.152419 | Time : 0.0715
+Best model saved with loss 0.152419 at epoch 42
+Epoch 43 | Loss : 0.147231 | Time : 0.3677
+Epoch 43 | Val Loss : 0.152143 | Time : 0.0705
+Best model saved with loss 0.152143 at epoch 43
+Epoch 44 | Loss : 0.147339 | Time : 0.3629
+Epoch 44 | Val Loss : 0.151917 | Time : 0.0714
+Best model saved with loss 0.151917 at epoch 44
+Epoch 45 | Loss : 0.147030 | Time : 0.3618
+Epoch 45 | Val Loss : 0.151743 | Time : 0.0704
+Best model saved with loss 0.151743 at epoch 45
+Epoch 46 | Loss : 0.147138 | Time : 0.3589
+Epoch 46 | Val Loss : 0.151614 | Time : 0.0703
+Best model saved with loss 0.151614 at epoch 46
+Epoch 47 | Loss : 0.146704 | Time : 0.3569
+Epoch 47 | Val Loss : 0.151519 | Time : 0.0737
+Best model saved with loss 0.151519 at epoch 47
+Epoch 48 | Loss : 0.146779 | Time : 0.3564
+Epoch 48 | Val Loss : 0.151456 | Time : 0.0734
+Best model saved with loss 0.151456 at epoch 48
+Epoch 49 | Loss : 0.146711 | Time : 0.3545
+Epoch 49 | Val Loss : 0.151418 | Time : 0.0733
+Best model saved with loss 0.151418 at epoch 49
+Epoch 50 | Loss : 0.146551 | Time : 0.3615
+Epoch 50 | Val Loss : 0.151396 | Time : 0.0722
+Best model saved with loss 0.151396 at epoch 50
+Test
+MSE : 0.009718 | MAE : 0.054219 | RMSE : 0.084013 | MAPE : 4.716280 | SMAPE : 2.522952
